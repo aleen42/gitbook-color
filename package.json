@@ -1,22 +1,31 @@
 {
   "name": "gitbook-plugin-color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Light or dark preset of colour for Gitbook themes and plugins.",
   "main": "index.js",
   "scripts": {
     "build": "node build.js"
   },
+  "engines": {
+    "node": "10.x",
+    "gitbook": ">=3.0.0-pre.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aleen42/gitbook-color.git"
   },
-  "devDependencies": {
-    "@primer/primitives": "^4.5.1"
-  },
+  "keywords": [
+    "gitbook",
+    "gitbook-plugin",
+    "color"
+  ],
   "author": "Aleen <aleen42@vip.qq.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aleen42/gitbook-color/issues"
   },
-  "homepage": "https://github.com/aleen42/gitbook-color#readme"
+  "homepage": "https://github.com/aleen42/gitbook-color#readme",
+  "devDependencies": {
+    "@primer/primitives": "^4.5.1"
+  }
 }

@@ -5,6 +5,7 @@ A Gitbook plugin of style definition for light or dark theme. It is based on [@p
 ### Release History
 
 * ==================== **1.0.0 Initial release** ====================
+  * 1.0.1 register as a Gitbook plugin
 
 ### :fuelpump: How to contribute
 
